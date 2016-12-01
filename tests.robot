@@ -1,8 +1,8 @@
+.. code:: robotframework
 *** Settings ***
-Library         Selenium2Library
-Library         XvfbRobot
+| Resource | ../resources/common_res.txt
+Test Teardown    Close All Browsers
 
 *** Test Cases ***
 I should see www.google.com
-    Start Virtual Display
     Open Browser    http://www.google.com  Firefox
