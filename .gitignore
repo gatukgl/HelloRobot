@@ -1,0 +1,6 @@
+venv/
+resources/
+*.log
+*.html
+*.xml
+*.sw*
